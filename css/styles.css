@@ -14,6 +14,7 @@ body {
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-studio {
   color: #2e2f42;
@@ -27,6 +28,7 @@ body {
   color: #2e2f42;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
 .navigation-items:hover,
 .navigation-items:focus {
@@ -38,6 +40,7 @@ body {
   font-style: normal;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
 .address-items:hover,
 .address-items:focus {
@@ -138,6 +141,7 @@ body {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
+  text-decoration: none;
 }
 .portfolio-items {
   color: #434455;
@@ -145,8 +149,11 @@ body {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
-/* ---------------- */
+.portfolio-link {
+  text-decoration: none;
+}
 .footer {
   background: #2e2f42;
   color: #f4f4fd;
